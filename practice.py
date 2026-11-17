@@ -1,3 +1,5 @@
+#For loop----
+
 # for i in range(0,11):
 #     print(i)
 
@@ -9,7 +11,7 @@
 #     if i %2 !=0:
 #         print(i)
 
-num = 5
+# num = 5
 
 # for i in range(1,11):
 #     print(num, "x", i, "=", num*i)
@@ -108,12 +110,12 @@ num = 5
 
 # Loop Control Statements
 
-for i in range(20):
-    if i == 12:
-        break
-    print(i)
+# for i in range(20):
+#     if i == 12:
+#         break
+#     print(i)
 
-for i in range(20):
-    if i == 12:
-        continue
-    print(i)
+# for i in range(20):
+#     if i == 12:
+#         continue
+#     print(i)
