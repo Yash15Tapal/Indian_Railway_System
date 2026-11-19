@@ -275,39 +275,69 @@ seat_numbers = [1, 2, 3, 4, 5]
 # # Length
 # print("Length:", len(movie))
 
-# DATE & TIME
-import datetime
+# # DATE & TIME
+# import datetime
 
-# Current date & time
-now = datetime.datetime.now()
-print("Now:", now)
+# # Current date & time
+# now = datetime.datetime.now()
+# print("Now:", now)
 
-# Today
-today = datetime.date.today()
-print("Today:", today)
+# # Today
+# today = datetime.date.today()
+# print("Today:", today)
 
-# Specific date (Republic Day)
-republic_day = datetime.date(1950, 1, 26)
-print("Republic Day:", republic_day.strftime("%D-%B-%Y"))
+# # Specific date (Republic Day)
+# republic_day = datetime.date(1950, 1, 26)
+# print("Republic Day:", republic_day.strftime("%D-%B-%Y"))
 
-# Time Difference
-diff = today - republic_day 
-print("Days since Republic Day:", diff.days)
+# # Time Difference
+# diff = today - republic_day 
+# print("Days since Republic Day:", diff.days)
 
-# Current components
-print("Years:", now.year)
-print("Month:", now.month)
-print("Day:", now.day)
-print("Hour:", now.hour)
-print("Minute:", now.minute)
-print("Second:", now.second)
+# # Current components
+# print("Years:", now.year)
+# print("Month:", now.month)
+# print("Day:", now.day)
+# print("Hour:", now.hour)
+# print("Minute:", now.minute)
+# print("Second:", now.second)
 
-# Create a time object
-t = datetime.time(10, 30, 15)
-print("Custom Time:", t)
+# # Create a time object
+# t = datetime.time(10, 30, 15)
+# print("Custom Time:", t)
 
-# Combine date & time
-dt = datetime.datetime.combine(today, t)
+# # Combine date & time
+# dt = datetime.datetime.combine(today, t)
 
-# Formatting
-print("Formatted:", now.strftime("%A, %D %B %Y, %I:%M %p"))
+# # Formatting
+# print("Formatted:", now.strftime("%A, %D %B %Y, %I:%M %p"))
+
+# calculate_discount = lambda price, discount_percentage : price * (1 - discount_percentage/100)
+
+# original_price = 1500
+
+# discounted_price = calculate_discount(original_price,20)
+
+# print(f"original: ₹(original_price), Discounted Price: ₹(discounted_price)")
+
+# train = [
+#     {"name":"Rajdhani","price":2500,"duration":16},
+#     {"name":"Shatabdi","price":1000,"duration":8},
+#     {"name":"Duronto","price":2000,"duration":12}
+# ]
+
+# # map
+
+# train_names = list(map(lambda x: x['name'], train))
+# print(f"\nTrain Names: {train_names}")
+
+# # filter
+
+# affordable_trains = list(filter(lambda x: x['price'] < 2200, train))
+# print("Affordable Trains: ",[t["name"] for t in affordable_trains])
+
+# # sorted
+
+# sorted_by_price = sorted(train,key=lambda x: x["price"])
+# print("Sorted by Price: ",[t["name"] for t in sorted_by_price])
+
